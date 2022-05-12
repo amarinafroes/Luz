@@ -28,7 +28,7 @@ ligar.addEventListener("click", (ev) => {
     
 });
 desligar.addEventListener("click", (ev) => {
-    if(estado.ligada == true && estado.quebrada == false ){
+    if(estado.ligada == true && estado.quebrada == false && estado.queimada == false ){
         estado.ligada = false
         lampada.src = "./img/desligada.jpg";
     }
