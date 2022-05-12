@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+#imagem{
+    text-align: center;
+}
+#botoes{
+    text-align: center;
+    height: 35px;
+}
+#botoes button{
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 30px;
+    font-weight: bold;
+}
